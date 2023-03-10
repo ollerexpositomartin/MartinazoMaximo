@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Martinaso Hack",
+  "description": "Boosteroid Hack",
+  "version": "1.0",
+  
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab","webRequest","declarativeNetRequest","webRequestBlocking",
+  "declarativeNetRequestFeedback","management","tabs","https://cloud.boosteroid.com/static/streaming/*","https://cloud.boosteroid.com/*"]
+}
